@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Selenium_test">
+
+	 <parameter name="app_url" value="https://login.system.aws-usw02-pr.ice.predix.io/passcode" /> 
+		<parameter name="username" value="jyoti" />
+		<parameter name="password" value="jyoti" />
+		<test verbose="10" name="Selenium_test" annotations="JDK" preserve-order="true" group-by-instances="true">
+		<classes>
+			<class name="test.CFLogin" />
+		</classes>
+	</test>
+	
+</suite>

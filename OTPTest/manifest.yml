@@ -1,0 +1,6 @@
+---
+applications:
+  - name: testing_OTP_CF
+    buildpack: java_buildpack
+    path: target/cc-analytics-microservice.jar
+    

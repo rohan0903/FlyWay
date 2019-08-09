@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Selenium_test">
+
+	 <parameter name="app_url" value="http://3.209.30.73:9000/dashboardlogin" /> 
+		<parameter name="username" value="jyoti" />
+		<test verbose="10" name="Selenium_test" annotations="JDK" preserve-order="true" group-by-instances="true">
+		<classes>
+			<class name="test.SeleniumTestRMG" />
+		</classes>
+	</test>
+	
+</suite>
+
